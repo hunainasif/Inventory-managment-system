@@ -1,0 +1,28 @@
+.navBar{
+    max-width: 100vw;
+    background-color: red;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    padding: 4px 10px;
+    gap:20px;
+}
+.logo{
+    width:200px;
+}
+.logo h1{
+    font-size: 20px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    gap:20px;
+
+}
+
+.list li{
+    font-size: 20px;
+    font-weight: 500;
+    list-style: none;
+
+}

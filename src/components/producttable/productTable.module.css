@@ -1,0 +1,53 @@
+.productTable{
+    width: 100%;
+    
+}
+.productTable table{
+    width:70%;
+    margin:20px auto;
+    
+}
+ 
+.productTable th{
+    padding: 10px;
+    background-color: rgb(194, 200, 204);
+    color: rgb(218, 25, 25);
+}
+.productTable thead{
+    font-size: 1.2rem;
+}
+.productTable td{
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+.productTable tr{
+    background-color: rgb(201, 201, 221);
+
+}
+.productTable tr:nth-child(even){
+    background-color: rgba(17, 80, 252, 0.651);
+}
+.actionBtn{
+    padding: 2px 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 3px;
+
+}
+
+.deleteBtn{
+    padding: 5px;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(4, 4, 168);
+    color:white;
+    margin:4px auto;
+    cursor: pointer;
+    
+}
